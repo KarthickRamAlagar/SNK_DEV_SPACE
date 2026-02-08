@@ -2,7 +2,7 @@
 # 🎬 ACU — Allan Creative Universe
 
 <p align="center">
-  <img src="./public/Screen.png" alt="KCU Banner" width="100%" />
+  <img src="https://github.com/allan-yuvaraj-dev/Allan_Cinematic_Universe/blob/main/public/assets/Banner.png" alt="KCU Banner" width="100%" />
 </p>
 
 <div style="margin-top:10px" align="center">
