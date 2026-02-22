@@ -1,8 +1,8 @@
 
-# 🎬 ACU — Allan Creative Universe
+# 🎬 SNK — Shankar Creative Universe
 
 <p align="center">
-  <img src="https://github.com/allan-yuvaraj-dev/Allan_Cinematic_Universe/blob/main/public/assets/Banner.png" alt="KCU Banner" width="100%" />
+  <img src="https://github.com/KarthickRamAlagar/SNK_DEV_SPACE/blob/main/public/banner.png" alt="KCU Banner" width="100%" />
 </p>
 
 <div style="margin-top:10px" align="center">
@@ -20,7 +20,7 @@
 
 <div align="center">
   <p>
-<strong>ACU</strong> is an immersive 3D portfolio experience built with React Three Fiber, GSAP animations, AI-generated cinematic intros, and interactive 3D models — merging art, technology, and storytelling in one platform.
+<strong>SNK</strong> is an immersive 3D portfolio experience built with React Three Fiber, GSAP animations, AI-generated cinematic intros, and interactive 3D models — merging art, technology, and storytelling in one platform.
   </p>
   <p><a href="https://allan-cinematic-universe-three.vercel.app/" target="_blank"><strong>🌐 Experience the Cinematic Portfolio</strong></a></p>
 </div>
@@ -52,7 +52,7 @@ It blends **AI-powered media**, **secure authentication**, and **interactive 3D 
 
 ### 🧠 Technical Description
 
-KCU is a **React Three.js portfolio** designed to engage visitors through:
+SNK is a **React Three.js portfolio** designed to engage visitors through:
 
 - AI-generated **cinematic intro videos** with **Google Veo3**.
 - **Clerk authentication** to secure exclusive content.
