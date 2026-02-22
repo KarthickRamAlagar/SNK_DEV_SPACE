@@ -1,66 +1,94 @@
+import { getAsset } from "@/utils/util";
+
 export const myProjects = [
   {
-    logo: "/assets/HCL.png",
+    logo: getAsset("assets/Novelis.png"),
     logoStyle: {
-      backgroundColor: "#0A4D8C",
-      border: "0.2px solid #0A4D8C",
-      boxShadow: "0px 0px 50px 0px rgba(10,77,140,0.3)",
+      backgroundColor: "#00539B",
+      border: "0.2px solid #00539B",
+      boxShadow: "0px 0px 50px 0px rgba(0,83,155,0.3)",
     },
-    spotlight: "/assets/spotlight3.png",
-    texture: "/textures/project/Xerox.mp4",
-    href: "#", // optional project link
+    spotlight: getAsset("assets/spotlight3.png"),
+    texture: getAsset("textures/project/p1.mp4"),
+    href: "#",
     tags: [
-      { id: 1, name: "C++", path: "/assets/tech/C++.png" },
-      { id: 2, name: "Linux", path: "/assets/tech/linux.png" },
-      { id: 3, name: "Bash", path: "/assets/tech/bash.png" },
-      { id: 4, name: "Git", path: "/assets/tech/github.png" },
-      { id: 5, name: "Embedded Systems", path: "/assets/tech/cb.png" },
-      { id: 6, name: "System Testing", path: "/assets/tech/testing.png" },
+      {
+        id: 1,
+        name: "Playwright",
+        path: getAsset("assets/tech/playwright.png"),
+      },
+      {
+        id: 2,
+        name: "JavaScript",
+        path: getAsset("assets/tech/javascript.png"),
+      },
+      { id: 3, name: "SQL", path: getAsset("assets/tech/sql.png") },
+      {
+        id: 4,
+        name: "Salesforce",
+        path: getAsset("assets/tech/salesforce.png"),
+      },
+      { id: 5, name: "ETL Testing", path: getAsset("assets/tech/etl.png") },
+      { id: 6, name: "JIRA", path: getAsset("assets/tech/jira.jpg") },
+      { id: 7, name: "qTest", path: getAsset("assets/tech/qtest.jpg") },
+      {
+        id: 8,
+        name: "Database Testing",
+        path: getAsset("assets/tech/database.png"),
+      },
     ],
     content: {
       en: {
-        title: "Xerox – Multi Function Printers (MFP)",
-        desc: "Developed embedded software modules for MFP devices using C++ in a Linux environment. Implemented VoIP/FOIP T.30 fax protocols, performed extensive testing, and ensured reliability for print, scan, copy, and fax services.",
+        title: "Sales & Insurance Platform Testing – Kaiser Permanente",
+        desc: "Enterprise healthcare insurance platform supporting sales workflows, policy lifecycle management, document validation, and UI-based insurance enrollment processes.",
         subdesc:
-          "Responsibilities included Bash scripting for patch management, root-cause analysis through subsystem logs, version control with Git, and executing Smoke, Regression, SVT, and ODIO tests. Focused on robust, traceable, and scalable embedded systems development.",
+          "Focused primarily on ETL and database validation across source systems and data warehouse layers. Executed SQL-based backend testing, performed data reconciliation and document comparison testing for insurance workflows, and validated Salesforce sales modules. Automated UI regression scenarios using Playwright (JavaScript). Managed defects and test cycles using JIRA and qTest in Agile delivery environments.",
       },
       kn: {
-        title: "Xerox – ಮಲ್ಟಿ ಫಂಕ್ಷನ್ ಪ್ರಿಂಟರ್ಸ್ (MFP)",
-        desc: "Linux ಪರಿಸರದಲ್ಲಿ C++ ಬಳಸಿ MFP ಸಾಧನಗಳಿಗೆ ಎಂಬೆಡೆಡ್ ಸಾಫ್ಟ್‌ವೇರ್ ಮಾಡ್ಯೂಲ್‌ಗಳನ್ನು ಅಭಿವೃದ್ಧಿಪಡಿಸಲಾಗಿದೆ. VoIP/FOIP T.30 ಫ್ಯಾಕ್ಸ್ ಪ್ರೋಟೋಕಾಲ್ ಅನುಷ್ಠಾನಗೊಳಿಸಿ, ಹೆಚ್ಚಿನ ಪರೀಕ್ಷೆ ನಡೆಸಿ, ಪ್ರಿಂಟ್, ಸ್ಕ್ಯಾನ್, ಕಾಪಿ ಮತ್ತು ಫ್ಯಾಕ್ಸ್ ಸೇವೆಗಳ ಭರವಸೆ ಒದಗಿಸಲಾಗಿದೆ.",
+        title:
+          "ಸೇಲ್ಸ್ ಮತ್ತು ಇನ್ಶೂರೆನ್ಸ್ ಪ್ಲಾಟ್‌ಫಾರ್ಮ್ ಟೆಸ್ಟಿಂಗ್ – Kaiser Permanente",
+        desc: "ಆರೋಗ್ಯ ವಿಮೆ ಮಾರಾಟ ಮತ್ತು ಪಾಲಿಸಿ ನಿರ್ವಹಣೆಗೆ ಬೆಂಬಲ ನೀಡುವ ಎಂಟರ್‌ಪ್ರೈಸ್ ಪ್ಲಾಟ್‌ಫಾರ್ಮ್.",
         subdesc:
-          "Bash scripting ಮೂಲಕ patch ನಿರ್ವಹಣೆ, subsystem logs ಮೂಲಕ root-cause analysis, Git ಬಳಸಿ version control ಮತ್ತು Smoke, Regression, SVT, ODIO ಪರೀಕ್ಷೆಗಳು. ಮಜಬೂತ್, traceable ಮತ್ತು scalable embedded systems ಅಭಿವೃದ್ಧಿ ಮೇಲೆ ಗಮನ ನೀಡಲಾಗಿದೆ.",
+          "ETL ಮತ್ತು ಡೇಟಾಬೇಸ್ ಪರಿಶೀಲನೆಗೆ ಮುಖ್ಯವಾಗಿ ಕೇಂದ್ರೀಕರಿಸಿ SQL ಮೂಲಕ ಡೇಟಾ ಸರಿಹೊಂದುವಿಕೆ ಪರಿಶೀಲಿಸಲಾಗಿದೆ. Playwright ಬಳಸಿ UI automation ಮತ್ತು Salesforce modules ಪರಿಶೀಲಿಸಲಾಗಿದೆ.",
       },
     },
   },
 
   {
-    logo: "/assets/HCL.png",
+    logo: getAsset("assets/kaiser.png.png"),
     logoStyle: {
-      backgroundColor: "#1E4D7A",
-      border: "0.2px solid #1E4D7A",
-      boxShadow: "0px 0px 50px 0px rgba(30,77,122,0.3)",
+      backgroundColor: "#007A33",
+      border: "0.2px solid #007A33",
+      boxShadow: "0px 0px 50px 0px rgba(0,122,51,0.3)",
     },
-    spotlight: "/assets/spotlight2.png",
-    texture: "/textures/project/batter.mp4",
-    href: "#", // add project link if any
+    spotlight: getAsset("assets/spotlight2.png"),
+    texture: getAsset("textures/project/p2.mp4"),
+    href: "#",
     tags: [
-      { id: 1, name: "Python", path: "/assets/tech/python.png" },
-      { id: 2, name: "Automation", path: "/assets/tech/automation.png" },
-      { id: 3, name: "Medical Devices", path: "/assets/tech/PuTTY.png" },
+      { id: 1, name: "SQL", path: getAsset("assets/tech/sql.png") },
+      { id: 2, name: "ETL Testing", path: getAsset("assets/tech/etl.png") },
+      {
+        id: 3,
+        name: "Database Testing",
+        path: getAsset("assets/tech/database.png"),
+      },
+      { id: 4, name: "JIRA", path: getAsset("assets/tech/jira.jpg") },
+      { id: 5, name: "qTest", path: getAsset("assets/tech/qtest.jpg") },
     ],
     content: {
       en: {
-        title: "Baxter Project – Medical Devices (Infusion Pump Systems)",
-        desc: "Developed automation scripts and performed validation testing for infusion pump systems, reducing manual testing effort and improving reliability.",
+        title:
+          "Healthcare Data Warehouse & Reporting Validation – Kaiser Permanente",
+        desc: "Centralized enterprise data warehouse supporting healthcare analytics, insurance claims reporting, sales performance dashboards, and regulatory compliance reporting.",
         subdesc:
-          "Converted 100+ manual test cases into reusable automated scripts using Python, developed automation robot scripts, conducted dry runs and formal validation testing with hardware–software integration, including robotic arm-based test execution, and complied with regulated medical device environments supporting documentation and validation requirements.",
+          "Performed extensive ETL validation across staging, transformation, and warehouse layers. Validated data mappings, transformation rules, aggregation logic, and reconciliation between source and target systems using complex SQL queries. Conducted batch job validation, error log analysis, and report-level data verification to ensure accuracy in healthcare analytics and compliance reporting.",
       },
       kn: {
         title:
-          "ಬ್ಯಾಕ್ಸ್ಟರ್ ಪ್ರಾಜೆಕ್ಟ್ – ಮೆಡಿಕಲ್ ಡಿವೈಸಸ್ (ಇನ್ಫ್ಯೂಷನ್ ಪಂಪ್ ಸಿಸ್ಟಮ್ಸ್)",
-        desc: "ಇನ್ಫ್ಯೂಷನ್ ಪಂಪ್ ಸಿಸ್ಟಮ್‌ಗಳಿಗೆ automation ಸ್ಕ್ರಿಪ್ಟ್‌ಗಳನ್ನು ಅಭಿವೃದ್ಧಿಪಡಿಸಿ validation ಪರೀಕ್ಷೆ ನಡೆಸಲಾಯಿತು, ಮ್ಯಾನುಯಲ್ ಪರೀಕ್ಷೆ ಶ್ರಮವನ್ನು ಕಡಿಮೆ ಮಾಡಿ ನಂಬಿಕೆಯುಳ್ಳ ಪರಿಣಾಮಗಳನ್ನು ಸುಧಾರಿಸಿದೆ.",
+          "ಹೆಲ್ತ್‌ಕೇರ್ ಡೇಟಾ ವೇರ್‌ಹೌಸ್ ಮತ್ತು ರಿಪೋರ್ಟಿಂಗ್ ಪರಿಶೀಲನೆ – Kaiser Permanente",
+        desc: "ಹೆಲ್ತ್‌ಕೇರ್ ಅನಾಲಿಟಿಕ್ಸ್ ಮತ್ತು ವರದಿ ವ್ಯವಸ್ಥೆಗೆ ಬೆಂಬಲ ನೀಡುವ ಡೇಟಾ ವೇರ್‌ಹೌಸ್.",
         subdesc:
-          "Python ಬಳಸಿ 100+ ಮ್ಯಾನುಯಲ್ ಟೆಸ್ಟ್ ಕೇಸ್‌ಗಳನ್ನು ಪುನಃಬಳಕೆ ಯೋಗ್ಯ automation ಸ್ಕ್ರಿಪ್ಟ್‌ಗಳಾಗಿ ಪರಿವರ್ತನೆ ಮಾಡಲಾಗಿದೆ, automation ರೋಬೋಟ್ ಸ್ಕ್ರಿಪ್ಟ್‌ಗಳನ್ನು ಅಭಿವೃದ್ಧಿಪಡಿಸಲಾಗಿದೆ, ಹಾರ್ಡ್‌ವೇರ್-ಸಾಫ್ಟ್‌ವೇರ್ ಸಂಯೋಜನೆಯೊಂದಿಗೆ ಡ್ರೈ ರನ್ ಮತ್ತು ಫಾರ್ಮಲ್ validation ಪರೀಕ್ಷೆಗಳನ್ನು ನಡೆಸಲಾಗಿದೆ, robotic arm ಆಧಾರಿತ ಟೆಸ್ಟ್ ಕಾರ್ಯನಿರ್ವಹಣೆಯನ್ನು ಒಳಗೊಂಡಂತೆ, ನಿಯಂತ್ರಿತ ಮೆಡಿಕಲ್ ಡಿವೈಸಸ್ ಪರಿಸರಗಳ ಪಾಲನೆ ಮತ್ತು ಡಾಕ್ಯುಮೆಂಟೇಶನ್ ಮತ್ತು validation ಅಗತ್ಯಗಳನ್ನು ಬೆಂಬಲಿಸಲಾಗಿದೆ.",
+          "ETL ಪ್ರಕ್ರಿಯೆಗಳಲ್ಲಿನ mapping, transformation ಮತ್ತು reconciliation ಪರಿಶೀಲಿಸಲಾಗಿದೆ. SQL ಬಳಸಿ source ಮತ್ತು target ಡೇಟಾ ಪರಿಶೀಲನೆ ನಡೆಸಲಾಗಿದೆ.",
       },
     },
   },

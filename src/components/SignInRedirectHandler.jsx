@@ -11,7 +11,7 @@ const SignInRedirectHandler = () => {
 
     const listener = ({ type }) => {
       if (type === "userSignedIn" || type === "userSignedOut") {
-        navigate("/Er.Allen_Yuvaraj/");
+        navigate("/Er.ShankaraNarayanan/");
       }
     };
 

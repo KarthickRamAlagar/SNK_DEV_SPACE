@@ -301,7 +301,7 @@ const Hero = ({ onViewProfile }) => {
         <h1
           key={lang}
           className="font-bold text-glow
-            text-4xl sm:text-5xl md:text-6xl lg:text-9xl"
+            text-3xl sm:text-4xl md:text-5xl lg:text-8xl"
         >
           <TypeAnimation sequence={[data.name]} speed={50} cursor repeat={0} />
         </h1>

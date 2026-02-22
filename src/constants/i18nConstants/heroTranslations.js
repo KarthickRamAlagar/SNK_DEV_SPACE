@@ -1,28 +1,28 @@
 // lib/heroTranslations.js
 
-
 export const heroTranslations = {
   en: {
-    name: "Er.Allan Yuvaraj",
-    role: "Software Engineer",
+    name: "Er.ShankaraNarayanan",
+    role: "Test Engineer",
     qualifications: "",
-    designation: "Software Engineer | Embedded Systems & Automation Specialist",
+    designation:
+      "Automation Engineer | Java & Playwright | Scalable Test Framework Developer",
     location: "Chennai, Tamil Nadu, India",
 
     contact: {
-      email: "allanyuvaraj@gmail.com",
-      phone: "+91 9629224782",
-      whatsappLink: "https://wa.me/919629224782",
-      linkedin: "https://www.linkedin.com/in/allan-yuvaraja-6a41a319a",
-      github: "https://github.com/allan-yuvaraj-dev",
+      email: "shankardhiya342@gmail.com",
+      phone: "+91 8015249841",
+      whatsappLink: "https://wa.me/918015249841",
+      linkedin: "https://www.linkedin.com/in/shankaranarayanan-k-383aab219/",
+      github: "https://github.com/TheTestNinja",
     },
 
     alerts: {
-      email: "Email: allanyuvaraj@gmail.com",
-      whatsapp: "WhatsApp: +91 96292 24782",
+      email: "Email: shankardhiya342@gmail.com",
+      whatsapp: "WhatsApp: +91 80152 49841",
       resume: "Download Resume & CV",
       linkedin: "Visit LinkedIn Profile",
-      github: "Visit My Code Analytics Profile",
+      github: "Visit My GitHub Profile",
     },
 
     buttons: {
@@ -31,24 +31,27 @@ export const heroTranslations = {
   },
 
   kn: {
-    name: "Er.ಅಲ್ಲನ್ ಯುವರಾ",
-    role: "ಸಾಫ್ಟ್‌ವೇರ್ ಇಂಜಿನಿಯರ್",
+    name: "Er.ಶಂಕರನಾರಾಯಣನ್ ",
+    role: "ಪರೀಕ್ಷಾ ಇಂಜಿನಿಯರ್",
     qualifications: "",
     designation:
-      "ಸಾಫ್ಟ್‌ವೇರ್ ಎಂಜಿನಿಯರ್ | ಎಂಬೆಡ್ಡ್ ಸಿಸ್ಟಮ್ಸ್ ಮತ್ತು ಆಟೋಮೇಷನ್ ಪರಿಣತಿ",
+      "ಆಟೋಮೇಷನ್ ಎಂಜಿನಿಯರ್ | ಜಾವಾ & ಪ್ಲೇರೈಟ್ | ಸ್ಕೇಲಬಲ್ ಟೆಸ್ಟ್ ಫ್ರೇಮ್‌ವರ್ಕ್ ಡೆವಲಪರ್",
     location: "ಚೆನ್ನೈ, ತಮಿಳುನಾಡು, ಭಾರತ",
 
     contact: {
-      email: "allanyuvaraj@gmail.com",
-      phone: "+91 9629224782",
-      whatsappLink: "https://wa.me/919629224782",
-      linkedin: "https://www.linkedin.com/in/allan-yuvaraja-6a41a319a",
+      email: "shankardhiya342@gmail.com",
+      phone: "+91 8015249841",
+      whatsappLink: "https://wa.me/918015249841",
+      linkedin: "https://www.linkedin.com/in/shankaranarayanan-k-383aab219/",
+      github: "https://github.com/TheTestNinja",
     },
 
     alerts: {
-      email: "ಇಮೇಲ್: allanyuvaraj@gmail.com",
-      whatsapp: "ವಾಟ್ಸ್ಆಪ್: +91 96292 24782",
+      email: "ಇಮೇಲ್: shankardhiya342@gmail.com",
+      whatsapp: "ವಾಟ್ಸ್ಆಪ್: +91 80152 49841",
       resume: "ರೆಸ್ಯೂಮ್ ಮತ್ತು ಸಿವಿ ಡೌನ್‌ಲೋಡ್ ಮಾಡಿ",
+      linkedin: "ಲಿಂಕ್‌ಡಿನ್ ಪ್ರೊಫೈಲ್ ವೀಕ್ಷಿಸಿ",
+      github: "ನನ್ನ GitHub ಪ್ರೊಫೈಲ್ ವೀಕ್ಷಿಸಿ",
     },
 
     buttons: {

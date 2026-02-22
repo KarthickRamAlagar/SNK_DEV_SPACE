@@ -6,6 +6,7 @@ import Alert from "@/components/Alert.jsx";
 import useAlert from "../../hooks/useAlert";
 import { aboutTranslations } from "../../constants/i18nConstants/aboutTranslations.js";
 import { TechCarousel } from "./TechCarousel";
+import { getAsset } from "@/utils/util";
 
 const AboutSection = () => {
   const [hasCopied, setHasCopied] = useState(false);
@@ -18,7 +19,7 @@ const AboutSection = () => {
   const { alert, showAlert, hideAlert } = useAlert();
 
   const handleCopy = () => {
-    navigator.clipboard.writeText("karthickramalagar@gmail.com");
+    navigator.clipboard.writeText("shankardhiya342@gmail.com");
     setHasCopied(true);
     setTimeout(() => setHasCopied(false), 2000);
   };
@@ -37,30 +38,31 @@ const AboutSection = () => {
   }, []);
 
   const techIcons = [
-    "/assets/tech/automation.png",
-    "/assets/tech/bash.png",
-    "/assets/tech/C++.png",
-    "/assets/tech/cb.png",
-    "/assets/tech/github.png",
-    "/assets/tech/notepad++.png",
-    "/assets/tech/PuTTY.png",
-    "/assets/tech/python-file.png",
-    "/assets/tech/python.png",
-    "/assets/tech/task.png",
-    "/assets/tech/testing.png",
-    "/assets/tech/winscp.png",
+    getAsset("assets/tech/automation.png"),
+    getAsset("assets/tech/cucumber.png"),
+    getAsset("assets/tech/database.png"),
+    getAsset("assets/tech/etl.png"),
+    getAsset("assets/tech/github.png"),
+    getAsset("assets/tech/informatica.png"),
+    getAsset("assets/tech/javascript.png"),
+    getAsset("assets/tech/jira.jpg"),
+    getAsset("assets/tech/playwright.png"),
+    getAsset("assets/tech/qtest.jpg"),
+    getAsset("assets/tech/salesforce.png"),
+    getAsset("assets/tech/selenium.png"),
+    getAsset("assets/tech/sql.png"),
+    getAsset("assets/tech/testng.png"),
   ];
 
   return (
     <section className="c-space my-20" id="about">
       {alert.show && <Alert {...alert} />}
 
-      {/* STACK < lg | BENTO ≥ lg */}
       <div className="grid grid-cols-1 lg:grid-cols-3 lg:grid-rows-6 gap-5">
         {/* GRID 1 */}
         <div className="lg:row-span-3">
           <div className="grid-container glass">
-            <img src="/assets/grid1.png" alt="about-profile" />
+            <img src={getAsset("assets/grid1.png")} alt="about-profile" />
             <div>
               <p className="grid-headtext">{aboutData.greeting}</p>
               <p className="grid-subtext">{aboutData.intro}</p>
@@ -71,7 +73,7 @@ const AboutSection = () => {
         {/* GRID 2 */}
         <div className="lg:row-span-3">
           <div className="grid-container glass">
-            <img src="/assets/grid21.png" alt="tech-stack" />
+            <img src={getAsset("assets/grid21.png")} alt="tech-stack" />
             <div>
               <p className="grid-headtext">{aboutData.techTitle}</p>
               <p className="grid-subtext">{aboutData.techDesc}</p>
@@ -82,7 +84,7 @@ const AboutSection = () => {
         {/* GRID 3 — Globe */}
         <div className="lg:row-span-4">
           <div className="grid-container glass">
-            <div className="rounded-3xl w-full h-[326px] flex justify-center items-center">
+            <div className="rounded-3xl w-full h-[326px] flex justify-center items-center mt-36">
               <Globe
                 ref={globeRef}
                 height={326}
@@ -96,7 +98,7 @@ const AboutSection = () => {
                   {
                     lat: 9.9252,
                     lng: 78.1198,
-                    text: "Neyveli, India",
+                    text: "Trichy, India",
                     color: "red",
                     size: 2.5,
                   },
@@ -130,7 +132,7 @@ const AboutSection = () => {
         {/* GRID 4 */}
         <div className="lg:col-span-2 lg:row-span-3">
           <div className="grid-container glass">
-            <img src="/assets/grid3.png" alt="passion" />
+            <img src={getAsset("assets/grid3.png")} alt="passion" />
             <div>
               <p className="grid-headtext">{aboutData.passionTitle}</p>
               <p className="grid-subtext">{aboutData.passionDesc}</p>
@@ -142,19 +144,24 @@ const AboutSection = () => {
         <div className="lg:row-span-2">
           <div className="grid-container glass">
             <img
-              src="/assets/grid4.png"
+              src={getAsset("assets/grid4.png")}
               alt="contact"
               className="w-full h-[180px] object-cover rounded-xl"
             />
             <div className="space-y-3 mt-4">
               <p className="grid-subtext text-center">Contact Me</p>
+
               <div className="copy-container" onClick={handleCopy}>
                 <img
-                  src={hasCopied ? "/assets/tick.svg" : "/assets/copy.svg"}
+                  src={
+                    hasCopied
+                      ? getAsset("assets/tick.svg")
+                      : getAsset("assets/copy.svg")
+                  }
                   alt="copy"
                 />
                 <p className="lg:text-2xl md:text-lg font-medium text-white">
-                  allenyuvaraj@gmail.com
+                  shankardhiya342@gmail.com
                 </p>
               </div>
             </div>

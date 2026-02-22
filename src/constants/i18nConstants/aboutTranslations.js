@@ -1,51 +1,51 @@
 export const aboutTranslations = {
   en: {
-    greeting: "Hi, I'm Allen Yuvaraj",
+    greeting: "Hi, I'm ShankaraNarayanan K",
     intro:
-      "Backend-focused Software Engineer with strong experience in embedded systems, Linux-based development, automation testing, and enterprise-grade software. I build reliable, scalable systems with a deep understanding of system-level behavior.",
+      "Detail-oriented Test Engineer and Automation Engineer with strong expertise in Java, Playwright, and scalable test framework development. I specialize in building robust automation solutions that ensure software quality, reliability, and performance across enterprise applications.",
 
     techTitle: "Technical Expertise",
     techDesc:
-      "Backend: C++, Python, Linux, Bash, Git, Embedded Systems, Automation Testing. Frontend: HTML, CSS, JavaScript — used for tooling, dashboards, and UI integrations where required.",
+      "Automation & Testing: Java, Playwright, Selenium, TestNG, Scalable Test Framework Development. Tools: Git, CI/CD, API Testing, Cross-browser Testing. Frontend: HTML, CSS, JavaScript — used for test validation and UI automation.",
 
     remoteTitle: "I work across systems, platforms, and environments.",
     remoteDesc:
-      "Based in India, experienced in working on enterprise and regulated-domain projects with distributed teams.",
+      "Based in India, experienced in collaborating with distributed teams and delivering high-quality automation solutions for enterprise-grade applications.",
 
     passionTitle: "Engineering Mindset",
     passionDesc:
-      "I enjoy solving low-level and system-oriented problems, improving reliability through testing and automation, and building efficient backend solutions. I also leverage frontend skills to bridge system logic with usable interfaces.",
+      "I enjoy designing scalable test frameworks, improving software reliability through automation, and optimizing testing pipelines. My focus is on delivering efficient, maintainable, and high-performance test solutions.",
 
     contactTitle: "Contact Me",
 
-    locationText: "Neyveli, India",
+    locationText: "Trichy, India",
     alertText: "📍 I'm from {{place}}",
 
     tech: "Technologies & Tools",
   },
 
   kn: {
-    greeting: "ನಮಸ್ಕಾರ, ನಾನು ಕಾರ್ತಿಕೇಯನ್",
+    greeting: "ನಮಸ್ಕಾರ, ನಾನು ಶಂಕರನಾರಾಯಣನ್ ಕೆ",
     intro:
-      "ಎಂಬೆಡೆಡ್ ಸಿಸ್ಟಮ್ಸ್, Linux ಆಧಾರಿತ ಅಭಿವೃದ್ಧಿ, automation testing ಮತ್ತು ಎಂಟರ್‌ಪ್ರೈಸ್ ಸಾಫ್ಟ್‌ವೇರ್‌ನಲ್ಲಿ ಅನುಭವ ಹೊಂದಿರುವ Backend ಕೇಂದ್ರೀಕೃತ Software Engineer.",
+      "Java ಮತ್ತು Playwright ನಲ್ಲಿ ಪರಿಣತಿ ಹೊಂದಿರುವ ವಿವರಕೇಂದ್ರಿತ Test Engineer ಹಾಗೂ Automation Engineer. ಎಂಟರ್‌ಪ್ರೈಸ್ ಅಪ್ಲಿಕೇಶನ್‌ಗಳಿಗೆ ಗುಣಮಟ್ಟ ಮತ್ತು ವಿಶ್ವಾಸಾರ್ಹತೆ ಖಚಿತಪಡಿಸುವ scalable automation ಪರಿಹಾರಗಳನ್ನು ನಿರ್ಮಿಸುವಲ್ಲಿ ಪರಿಣತಿ ಹೊಂದಿದ್ದೇನೆ.",
 
     techTitle: "ತಾಂತ್ರಿಕ ಪರಿಣಿತಿ",
     techDesc:
-      "Backend: C++, Python, Linux, Bash, Git, Embedded Systems, Automation Testing. Frontend: HTML, CSS, JavaScript — ಅಗತ್ಯವಿರುವ tooling, dashboard ಮತ್ತು UI integration ಗಾಗಿ ಬಳಸಲಾಗಿದೆ.",
+      "Automation & Testing: Java, Playwright, Selenium, TestNG, Scalable Test Framework Development. Tools: Git, CI/CD, API Testing, Cross-browser Testing. Frontend: HTML, CSS, JavaScript — UI automation ಮತ್ತು validation ಗಾಗಿ ಬಳಸಲಾಗುತ್ತದೆ.",
 
     remoteTitle: "ವಿವಿಧ ಸಿಸ್ಟಮ್‌ಗಳು ಮತ್ತು ವೇದಿಕೆಗಳಲ್ಲಿ ಕೆಲಸ ಮಾಡುತ್ತೇನೆ.",
     remoteDesc:
-      "ಭಾರತದಲ್ಲಿ ನೆಲೆಸಿದ್ದು, ಎಂಟರ್‌ಪ್ರೈಸ್ ಮತ್ತು ನಿಯಂತ್ರಿತ ಕ್ಷೇತ್ರದ distributed ತಂಡಗಳೊಂದಿಗೆ ಕೆಲಸ ಮಾಡಿದ ಅನುಭವ ಹೊಂದಿದ್ದೇನೆ.",
+      "ಭಾರತದಲ್ಲಿ ನೆಲೆಸಿದ್ದು, distributed ತಂಡಗಳೊಂದಿಗೆ ಸಹಕರಿಸಿ ಎಂಟರ್‌ಪ್ರೈಸ್ ಮಟ್ಟದ automation ಪರಿಹಾರಗಳನ್ನು ಒದಗಿಸುವ ಅನುಭವ ಹೊಂದಿದ್ದೇನೆ.",
 
     passionTitle: "ಎಂಜಿನಿಯರಿಂಗ್ ದೃಷ್ಟಿಕೋನ",
     passionDesc:
-      "System-level ಸಮಸ್ಯೆಗಳನ್ನು ಪರಿಹರಿಸುವುದು, automation ಮೂಲಕ reliability ಹೆಚ್ಚಿಸುವುದು ಮತ್ತು ಪರಿಣಾಮಕಾರಿ backend ಪರಿಹಾರಗಳನ್ನು ನಿರ್ಮಿಸುವುದು ನನ್ನ ಆಸಕ್ತಿ. Frontend ಕೌಶಲ್ಯಗಳನ್ನು ಬಳಸಿ logic ಮತ್ತು UI ನಡುವಿನ ಸೇತುವೆ ನಿರ್ಮಿಸುತ್ತೇನೆ.",
+      "Scalable test framework ನಿರ್ಮಿಸುವುದು, automation ಮೂಲಕ software reliability ಹೆಚ್ಚಿಸುವುದು ಮತ್ತು testing pipeline ಅನ್ನು ಸುಧಾರಿಸುವುದು ನನ್ನ ಆಸಕ್ತಿ. ದಕ್ಷ ಮತ್ತು ನಿರ್ವಹಿಸಲು ಸುಲಭವಾದ test ಪರಿಹಾರಗಳನ್ನು ಒದಗಿಸುವುದೇ ನನ್ನ ಗುರಿ.",
 
     contactTitle: "ಸಂಪರ್ಕಿಸಿ",
 
-    locationText: "ನೇಯ್ವೇಲಿ, ಭಾರತ",
+    locationText: "ತ್ರಿಚಿ, ಭಾರತ",
     alertText: "📍 ನಾನು {{place}}ನಿಂದ",
 
-    tech: "ಕನ್ನಡ ಅನುವಾದಗಳು",
+    tech: "ತಂತ್ರಜ್ಞಾನಗಳು ಮತ್ತು ಉಪಕರಣಗಳು",
   },
 };

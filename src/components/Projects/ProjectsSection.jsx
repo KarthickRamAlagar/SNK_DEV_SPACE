@@ -5,6 +5,7 @@ import { Canvas } from "@react-three/fiber";
 import { Center, OrbitControls } from "@react-three/drei";
 import CanvasLoader from "../../components/CanvasLoader";
 import DemoComputer from "../../components/DemoComputer";
+import { getAsset } from "@/utils/util.jsx";
 
 const Projects = () => {
   const { i18n } = useTranslation();
@@ -96,7 +97,7 @@ const Projects = () => {
               className="arrow-btn"
               onClick={() => handleNavigation("previous")}
             >
-              <img src="/assets/left-arrow.png" alt="left arrow" />
+              <img src={getAsset("assets/left-arrow.png")} alt="left arrow" />
             </button>
 
             <button
@@ -104,7 +105,7 @@ const Projects = () => {
               onClick={() => handleNavigation("next")}
             >
               <img
-                src="/assets/right-arrow.png"
+                src={getAsset("assets/right-arrow.png")}
                 alt="right arrow"
                 className="w-4 h-4"
               />

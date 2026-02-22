@@ -5,7 +5,7 @@ import { useNavigate } from "react-router-dom";
 
 const NotFound = () => {
   const navigate = useNavigate();
-
+  const base = import.meta.env.BASE_URL;
   return (
     <div className="relative w-screen h-screen flex items-center justify-center bg-sky-400 overflow-hidden">
       {/* Lottie Background */}
@@ -22,7 +22,7 @@ const NotFound = () => {
       {/* Content */}
       <div className="relative z-10 mt-48  px-4">
         <button
-          onClick={() => navigate("/Er.Allen_Yuvaraj/")}
+          onClick={() => navigate("/")}
           className="px-3 md:px-6 md:py-3 bg-white  text-sky-500 font-semibold rounded-lg shadow-lg hover:bg-sky-50 transition"
         >
           Go Home

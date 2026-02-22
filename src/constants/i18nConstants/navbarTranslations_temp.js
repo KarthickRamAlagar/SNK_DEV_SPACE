@@ -20,11 +20,11 @@ export const navbarTranslations = {
   },
 };
 
-//  nav links paths 
+//  nav links paths
 export const navItems = {
-  about: "/Er.Allen_Yuvaraj/About",
-  education: "/Er.Allen_Yuvaraj/Education",
-  experience: "/Er.Allen_Yuvaraj/Experience",
-  projects: "/Er.Allen_Yuvaraj/Projects",
-  contact: "/Er.Allen_Yuvaraj/Contact",
+  about: "/about",
+  education: "/education",
+  experience: "/experience",
+  projects: "/projects",
+  contact: "/contact",
 };

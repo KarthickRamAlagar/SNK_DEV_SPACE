@@ -6,15 +6,10 @@ const ProtectedRoutes = ({ children }) => {
   const { pathname } = useLocation();
 
   if (!isLoaded) return null;
-  if (!isSignedIn)
-    return <Navigate to="/Er.Allen_Yuvaraj/?sign-in=true" replace />;
+  if (!isSignedIn) return <Navigate to="/" />;
 
-  if (
-    user &&
-    !user.unsafeMetadata?.role &&
-    pathname !== "/Er.Allen_Yuvaraj/"
-  ) {
-    return <Navigate to="/Er.Allen_Yuvaraj/" />;
+  if (user && !user.unsafeMetadata?.role && pathname !== "/") {
+    return <Navigate to="/" />;
   }
 
   return children;

@@ -10,61 +10,63 @@ import AboutSection from "@/components/About/AboutSection";
 import EducationSection from "@/components/Education/EducationSection";
 import ProjectsSection from "@/components/Projects/ProjectsSection";
 
-const router = createBrowserRouter([
+const router = createBrowserRouter(
+  [
+    {
+      path: "/",
+      element: <AppLayout />,
+      children: [
+        { index: true, element: <Home /> },
+        {
+          path: "about",
+          element: (
+            <ProtectedRoutes>
+              <AboutSection />
+            </ProtectedRoutes>
+          ),
+        },
+        {
+          path: "education",
+          element: (
+            <ProtectedRoutes>
+              <EducationSection />
+            </ProtectedRoutes>
+          ),
+        },
+        {
+          path: "experience",
+          element: (
+            <ProtectedRoutes>
+              <ExperienceSection />
+            </ProtectedRoutes>
+          ),
+        },
+        {
+          path: "projects",
+          element: (
+            <ProtectedRoutes>
+              <ProjectsSection />
+            </ProtectedRoutes>
+          ),
+        },
+        {
+          path: "contact",
+          element: (
+            <ProtectedRoutes>
+              <Contact />
+            </ProtectedRoutes>
+          ),
+        },
+      ],
+    },
+    {
+      path: "*",
+      element: <NotFound />,
+    },
+  ],
   {
-    path: "/Er.Allen_Yuvaraj/",
-    element: <AppLayout />,
-    children: [
-      {
-        index: true,
-        element: <Home />,
-      },
-      {
-        path: "about",
-        element: (
-          <ProtectedRoutes>
-            <AboutSection />
-          </ProtectedRoutes>
-        ),
-      },
-      {
-        path: "Education",
-        element: (
-          <ProtectedRoutes>
-            <EducationSection />
-          </ProtectedRoutes>
-        ),
-      },
-      {
-        path: "Experience",
-        element: (
-          <ProtectedRoutes>
-            <ExperienceSection />
-          </ProtectedRoutes>
-        ),
-      },
-      {
-        path: "Projects",
-        element: (
-          <ProtectedRoutes>
-            <ProjectsSection />
-          </ProtectedRoutes>
-        ),
-      },
-      {
-        path: "Contact",
-        element: (
-          <ProtectedRoutes>
-            <Contact />
-          </ProtectedRoutes>
-        ),
-      },
-    ],
+    basename: "/Er.ShankaraNarayana",
   },
-  {
-    path: "*",
-    element: <NotFound />,
-  },
-]);
+);
 
 export default router;
